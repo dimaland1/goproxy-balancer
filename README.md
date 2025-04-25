@@ -30,8 +30,8 @@ api-golang/
 
 1. Clonez ce dépôt :
    ```
-   git clone https://github.com/votre-username/api-golang.git
-   cd api-golang
+   git clone https://github.com/dimaland1/goproxy-balancer.git
+   cd goproxy-balancer
    ```
 
 2. Installez les dépendances :
@@ -98,11 +98,3 @@ La rotation des logs est configurée pour :
 ## Surveillance de Santé
 
 Le load balancer effectue des vérifications de santé des serveurs cibles toutes les 30 secondes. Si un serveur échoue à 3 vérifications consécutives, il est temporairement retiré de la rotation jusqu'à ce qu'il redevienne disponible.
-
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
-
-## Licence
-
-Ce projet est sous licence MIT.
