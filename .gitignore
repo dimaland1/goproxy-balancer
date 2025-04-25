@@ -1,0 +1,28 @@
+# Fichiers binaires et exécutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Fichiers de logs
+*.log
+logs/
+
+# Variables d'environnement
+.env
+.env.local
+
+# Dossiers de sortie de build
+/bin/
+/dist/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers spécifiques à l'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
